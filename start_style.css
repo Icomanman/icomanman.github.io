@@ -19,7 +19,7 @@ hr {
 
 header.startup {
 	background-position: center;
-	background-image: url("./../images/BMDComb.jpg");
+	background-image: url("./images/BMDComb.jpg");
 	background-size: cover;
 	height: 100%;
 }
