@@ -1,3 +1,6 @@
+:root {
+	--main-purple:#9B30FF;
+}
 
 html, body {
 	font-family: Tahoma, Arial; 
@@ -17,7 +20,8 @@ html, body {
 }
 
 a {
-	color: #b69e40; outline: 0;
+	/* color: #b69e40; outline: 0; */
+	color: var(--main-purple); outline: 0;
 }
 
 a:hover {
@@ -25,7 +29,8 @@ a:hover {
 }
 
 a:active, a:focus {
-	color: #b69e40;
+	/* color: #b69e40; */
+	color: var(--main-purple);
 	border: none;
 	text-decoration: none;
 }
@@ -88,7 +93,8 @@ span.fa	{ width: 100%; text-align: center; }
   text-transform: uppercase;
 }
 .site-header .main-navigation ul li a.active {
-  color: #b69e40;
+  /* color: #b69e40; */
+  color:var(--main-purple);
   text-decoration: none;
 }
 .site-header .templatemo_logo {
@@ -199,18 +205,19 @@ a.menu-toggle-btn {
 .s_top	{ margin-top: 8%; }
 
 .templatemo_hexteam .gallery-item .templatemo_overlay1 a {
-    margin-top: 78%;
-    background: none;
-    border: none;
-    position: static;
-    display: inline-block;    
-    margin-left: 10px;
+	margin-top: 78%;
+	background: none;
+	border: none;
+	position: static;
+	display: inline-block;    
+	margin-left: 10px;
 }
 
 .smallhexagon {
 	width: 40px;
 	height: 46px;
-	background: #b69e40;
+	/* background: #b69e40; */
+	background: var(--main-purple);
 	position: relative;
 	background: url(../images/templatemo_teamhexa.png) no-repeat;
 	margin-bottom: 10px;
@@ -246,7 +253,8 @@ a.menu-toggle-btn {
   
 }
 .hexagon-a a.hlinktop:hover .hexa-a {
-  background: #cfb652;
+  /* background: #cfb652; */
+ background: var(--main-purple); 
   color: #fff;
 }
 
@@ -262,7 +270,8 @@ a.menu-toggle-btn {
 }
 
 .hexagonservices a.hlinkbott:hover .hexa {
-  background: #b69e40;
+  /* background: #b69e40; */
+  background: var(--main-purple);
 }
 .templatemo_servicetext	{ float: left; margin-top: 230px; }
 .templatemo_hexservices	{ width: 20%; margin-top: -10%; }
@@ -276,7 +285,8 @@ a.menu-toggle-btn {
   padding-bottom: 57.7%;
   background: #393e42;
   position: absolute;
-  color: #b69e40;
+  /* color: #b69e40; */
+  color: var(--main-purple);
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 42px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -340,7 +350,8 @@ a.menu-toggle-btn {
   height: 0;
   padding-bottom: 57.7%;
   margin: 0;
-  background: #b69e40;
+  /* background: #b69e40; */
+  background: var(--main-purple);
   position: absolute;
   color: #FFF;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
@@ -381,10 +392,10 @@ a.menu-toggle-btn {
 
 /* ---- Small Hexa ----*/
 .hex_footer {
-    width: 46px;
+	width: 46px;
 	height: 40px;
 	position: relative;
-    background: url(../images/templatemo_footerhexa.png) no-repeat;
+	background: url(../images/templatemo_footerhexa.png) no-repeat;
 }
 
  a:hover .hex_footer{ background: url(../images/templatemo_teamhexa_hover.png) no-repeat; }
@@ -435,7 +446,8 @@ a.menu-toggle-btn {
   color: #2a2a2a;
   width: 32px;
   height: 32px;
-  background-color: #d3b850;
+  /* background-color: #d3b850; */
+  background-color: #9B30FF;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -455,7 +467,8 @@ a.menu-toggle-btn {
 .templatemo_loadmore	{ 
 	margin: 0 auto; 
 	padding: 7px 0px; 
-	background: #b79e41; 
+	/* background: #b79e41;  */
+	background: var(--main-purple);
 	margin-top: 15%; 
 	text-align: center; 
 	font-size: 16px; 
@@ -465,7 +478,8 @@ a.menu-toggle-btn {
 
 .templatemo_loadmore button{ 
 	border: none; 
-	background: #b79e41; 
+	/* background: #b79e41;  */
+	background: #9B30FF;
 	color: #ffffff; 
 	text-transform: uppercase;
 	width: 100%;
@@ -494,7 +508,8 @@ a.menu-toggle-btn {
 .templatemo_address	ul li.left{
 	float: left;
 	width: 40px;
-	color: #b69e40;
+	/* color: #b69e40; */
+	color: var(--main-purple);
 	font-size: 22px;
 }
 .templatemo_address	ul li.rigth{
@@ -532,7 +547,8 @@ a.menu-toggle-btn {
 	text-align: center;
 	color: #ffffff;
 	border-radius: 0px;
-	background: #b69e40;
+	/* background: #b69e40; */
+	background: var(--main-purple)	;
 	border: none;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -542,8 +558,8 @@ a.menu-toggle-btn {
 .templatemo_contactmap	{ width: 332px; height: 388px; float: left; }
 .templatemo_contactmap img { position: absolute; width: 332px; height: 388px; top: 0px; left: 15px; }
 #templatemo_map {
-    width: 100%;
-    height: 388px;
+	width: 100%;
+	height: 388px;
 }
 
 .templatemo_footer { background: #343536; padding: 20px 0px; width: 100%; margin-top: 100px; }
@@ -572,8 +588,8 @@ and (max-width : 419px)	{
 	.templatemo_contactmap	{ width: 250px; height: 292px; float: left; }
 	.templatemo_contactmap img{ position: absolute; width: 250px; height: 292px; top: 0px; left: 15px; }
 	#templatemo_map {
-    width: 100%;
-    height: 292px;
+	width: 100%;
+	height: 292px;
 	}
 	.blok	{ left: 13%; }
 }
@@ -676,7 +692,7 @@ and (max-width : 559px)	{
 	.templatemo_contactmap img{ position: absolute; width: 250px; height: 292px; top: 0px; left: 15px; }
 	#templatemo_map {
    	 width: 100%;
-    height: 292px;
+	height: 292px;
 	}
 	}
 @media(min-width:992px) and (max-width: 1390px){
@@ -710,23 +726,23 @@ and (max-width : 559px)	{
 	}
 
   .site-header .main-navigation {
-    padding: 0;
+	padding: 0;
   }
   .site-header .main-navigation .container {
-    width: 100%;
+	width: 100%;
   }
 
   .responsive-menu {
-    display: block;
+	display: block;
   }
 
   .main_menu {
-    display: none;
+	display: none;
   }
 
   .services #icons .icon-item span,
   .about #icons-about .icon-item span {
-    display: none;
+	display: none;
   }
   }
   
