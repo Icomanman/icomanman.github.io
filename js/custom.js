@@ -55,11 +55,9 @@ jQuery(document).ready(function ($) {
 		$(".main_menu a.templatemo_page3, .responsive_menu a.templatemo_page3").removeClass('active');
 		$(".main_menu a.templatemo_home, .responsive_menu a.templatemo_home").removeClass('active');
 
-		loadScript();
+		// loadScript();
 		return false;
 	});
-
-
 
 	/************** Gallery Hover Effect *********************/
 	$(".overlay").hide();
@@ -79,7 +77,6 @@ jQuery(document).ready(function ($) {
 		$('[data-rel="lightbox"]').lightbox();
 	});
 
-
 	$("a.menu-toggle-btn").click(function () {
 		$(".responsive_menu").stop(true, true).slideToggle();
 		return false;
@@ -91,21 +88,19 @@ jQuery(document).ready(function ($) {
 
 });
 
-function loadScript() {
-	var script = document.createElement('script');
-	script.type = 'text/javascript';
-	script.src = 'https://maps.googleapis.com/maps/api/js?';
-	document.body.appendChild(script);
-}
+// function loadScript() {
+// 	var script = document.createElement('script');
+// 	script.type = 'text/javascript';
+// 	script.src = 'https://maps.googleapis.com/maps/api/js';
+// 	document.body.appendChild(script);
+// }
 
-// https://maps.google.com/maps?q=Manila&t=&z=13&ie=UTF8&iwloc=&output=embed
-
-function initialize() {
-	var mapOptions = {
-		zoom: 12,
-		// center: new google.maps.LatLng(40.7823234, -73.9654161)
-		center: new google.maps.LatLng(14.599512, 120.984222)
-	};
-	var map = new google.maps.Map(document.getElementById('templatemo_map'), mapOptions);
-}
+// function initialize() {
+// 	var mapOptions = {
+// 		zoom: 12,
+// 		// center: new google.maps.LatLng(40.7823234, -73.9654161)
+// 		center: new google.maps.LatLng(14.599512, 120.984222)
+// 	};
+// 	var map = new google.maps.Map(document.getElementById('templatemo_map'), mapOptions);
+// };
 

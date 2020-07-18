@@ -760,7 +760,7 @@ and (max-width : 559px)	{
 
 /* adjust logo to fit */
 @media screen and (max-width: 992px) {
-	#img-logo {
+	.responsive-img {
 		width: 100%; 
 		height: auto;
 	}
