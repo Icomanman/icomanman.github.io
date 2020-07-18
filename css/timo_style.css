@@ -566,7 +566,7 @@ a.menu-toggle-btn {
 }
 
 .templatemo_footer { background: #343536; padding: 20px 0px; width: 100%; margin-top: 100px; }
-.templatemo_footer .hex_footer	{ float: var(--align-main); margin-right: 5px; height: 40px; }
+.templatemo_footer .hex_footer	{ float: left; margin-right: 5px; height: 40px; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
@@ -756,3 +756,12 @@ and (max-width : 559px)	{
 .content { display: none; height: auto; }
 .homepage	{ display: block; }
 .leftalign	{ float: var(--responsive-float); }
+
+
+/* adjust logo to fit */
+@media screen and (max-width: 992px) {
+	#img-logo {
+		width: 100%; 
+		height: auto;
+	}
+}
