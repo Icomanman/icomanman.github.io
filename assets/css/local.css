@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Giuliano;
+    src: url("./../webfonts/RomanUncialModern.ttf");
+ }
+
+#ach-title{
+    font-family: Achilles;
+    src: url("./../webfonts/achilles3bold.ttf");
+}
+
+.roman-title{
+    font-family: Giuliano;
+}
+
+#traj-title{
+    font-family: Tajan;
+    src: url("./../webfonts/trajanus.TTF");
+}
